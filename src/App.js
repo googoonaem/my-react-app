@@ -1,7 +1,7 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
 } from 'react-router-dom';
 import Home from './routes/Home';
 import Detail from './routes/Detail';
@@ -9,16 +9,13 @@ import Detail from './routes/Detail';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Switch>
-        <Route
-          path={`${process.env.PUBLIC_URL}/movie/:id`}
-          element={<Detail />}
-        />
+      <Routes>
+        <Route path="/movie/:id" element={<Detail />} />
         <Route
           path={`${process.env.PUBLIC_URL}/`}
           element={<Home />}
         />
-      </Switch>
+      </Routes>
     </Router>
   );
 }

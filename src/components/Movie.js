@@ -10,7 +10,7 @@ const truncateText = (text, maxLength) => {
 };
 function Movie({ id, m_cover_img, title, summary, genres }) {
   return (
-    <Link to={`${process.env.PUBLIC_URL}/movie/${id}`}>
+    <Link to={`/movie/${id}`}>
       <div className={styles.movie}>
         <img
           className={styles.coverImage}
