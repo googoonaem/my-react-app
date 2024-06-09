@@ -1,0 +1,87 @@
+.movieDetail {
+  font-family: Arial, sans-serif;
+  color: #f4f4f4;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 5px solid #444;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.coverImage {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  color: #ddd;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+}
+
+.button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005fbb;
+}
